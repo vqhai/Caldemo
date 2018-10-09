@@ -17,9 +17,9 @@ namespace Caldemo
         }
         private void btnCong_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(textBox1.Text);
-            int b = int.Parse(textBox2.Text);
-            int c = a + b;
+            double a = double.Parse(textBox1.Text);
+            double b = double.Parse(textBox2.Text);
+            double c = a + b;
             label1.Text = c.ToString();
         }
     }
