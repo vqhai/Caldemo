@@ -18,7 +18,11 @@ namespace Caldemo
         private void btnCong_Click(object sender, EventArgs e)
         {
             double a = double.Parse(textBox1.Text);
+<<<<<<< HEAD
             double b = double.Parse(textBox2.Text);
+=======
+            int b = int.Parse(textBox2.Text);
+>>>>>>> Feature-Add
             double c = a + b;
             label1.Text = c.ToString();
         }
